@@ -2,23 +2,13 @@
 
 This Gemini CLI extension provides a set of tools to interact with [Firestore](https://cloud.google.com/firestore/docs) databases. It allows you to manage your databases, documents, and collections directly from the [Gemini CLI](https://google-gemini.github.io/gemini-cli/), using natural language prompts.
 
+Learn more about [Gemini CLI Extensions](https://github.com/google-gemini/gemini-cli/blob/main/docs/extension.md).
+
 ## Features
 
-*   **Integrated with Gemini CLI:** As a Google-developed extension, it integrates seamlessly into the Gemini CLI environment, making security an accessible part of your workflow.
-*   **Connect to Firestore:** Securely connect to your Firestore databases.
-*   **Explore Database:** List collections and documents.
-*   **Query your Database:** Execute queries against your database.
-
-## Supported Tools
-
-🟢 firestore-add-documents: Use this tool to add documents to a Firestore collection path.
-🟢 firestore-get-documents: Use this tool to get multiple documents from Firestore by their paths.
-🟢 firestore-list-collections: Use this tool to list Firestore collections for a given parent path.
-🟢 firestore-delete-documents: Use this tool to delete multiple documents from Firestore.
-🟢 firestore-query-collection: Use this tool to query documents from a collection with filtering, ordering, and limit options.
-🟢 firestore-get-rules: Use this tool to retrieve the active Firestore security rules for the current project.
-🟢 firestore-update-document: Use this tool to update an existing document in Firestore by its path.
-🟢 firestore-validate-rules: Use this tool to validate Firestore security rules syntax and errors.
+* **Natural Language Management:** Stop wrestling with complex commands. Explore schemas and query data by describing what you want in plain English.
+* **Seamless Workflow:** As a Google-developed extension, it integrates seamlessly into the Gemini CLI environment. No need to constantly switch contexts for common database tasks.
+* **Code Generation:** Accelerate development by asking Gemini to generate data classes and other code snippets based on your table schemas.
 
 ## Prerequisites
 
@@ -27,13 +17,15 @@ Before you begin, ensure you have the following:
 *   [Gemini CLI](https://github.com/google-gemini/gemini-cli) installed.
 *   A Google Cloud project with the **Firestore API** enabled.
 *   IAM Permissions
+  *   Cloud Datastore User (`roles/datastore.user`)
+  *   Firebase Rules Viewer (`roles/firebaserules.viewer`) 
 
 ## Installation
 
 To install the extension, use the `gemini extensions install` command:
 
 ```bash
-gemini extensions install github.com/gemini-cli-extensions/firestore-native.git
+gemini extensions install github.com/gemini-cli-extensions/firestore-native
 ```
 
 ## Configuration
@@ -41,17 +33,40 @@ gemini extensions install github.com/gemini-cli-extensions/firestore-native.git
 *   `FIRESTORE_PROJECT`: The GCP project ID.
 *   `FIRESTORE_DATABASE`: (Optional) The Firestore database ID.
 
+## Usage Examples
 
-## Usage
+Interact with Firestore using natural language right from your IDE:
 
-* Explore Schemas and Data
-* Generate code
+* **Document and Data Retrieval**:
 
+  * "Show me the Firestore data for the test users qa_user_123 and qa_user_456 from the users-staging collection."
+  * "Find all users in the users-staging collection whose wishlist contains product-glasses."
 
-## Security
+* **Document Updates and Cleanup**:
+  * "For all 20 test users you just found, please remove product-glasses(inactive) from their wishlist."
+  * "Update the document with ID order-987 in the orders collection to set the status to 'Shipped'."
 
-This extension executes commands against your Firestore database. Always review the generated queries before execution, especially for write operations.
+* **Security Rules Management**:
+  * "new_rules.txt is a new Firestore Security Rule I'm working on for staging. Can you validate it for me?"
+  * "Show me the active Firestore security rules for this project."
 
-## Disclaimer
+## Supported Tools
 
-This is not an officially supported Google product. This extension is under active development, and breaking changes may be introduced.
+This extension provides a comprehensive set of tools:
+
+* `add-documents`: Use this tool to add documents to a Firestore collection path.
+* `get-documents`: Use this tool to get multiple documents from Firestore by their paths.
+* `list-collections`: Use this tool to list Firestore collections for a given parent path.
+* `delete-documents`: Use this tool to delete multiple documents from Firestore.
+* `query-collection`: Use this tool to query documents from a collection with filtering, ordering, and limit options.
+* `get-rules`: Use this tool to retrieve the active Firestore security rules for the current project.
+* `update-document`: Use this tool to update an existing document in Firestore by its path.
+* `validate-rules`: Use this tool to validate Firestore security rules syntax and errors.
+
+## Additional Extensions
+
+Find additional extensions to support your entire software development lifecycle at [github.com/gemini-cli-extensions](https://github.com/gemini-cli-extensions).
+
+## Troubleshooting
+
+* "cannot execute binary file": Ensure the correct binary for your OS/Architecture has been downloaded. See [Installing the server](https://googleapis.github.io/genai-toolbox/getting-started/introduction/#installing-the-server) for more information.
