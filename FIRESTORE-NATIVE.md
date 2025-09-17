@@ -13,4 +13,4 @@ This section covers connecting to a Firestore instance.
 
 2.  **Handle Missing Variables**: If a command fails with an error message containing a placeholder like `${FIRESTORE_PROJECT}`, it signifies a missing environment variable. Inform the user which variable is missing and instruct them to set it.
 
-3.  **Handle Permission Errors**: If you encounter permission errors, ensure the user has the correct Firestore permissions (e.g., `datastore.databases.get`, `datastore.documents.list`).
+3.  **Handle Permission Errors**: If you encounter permission errors, ensure the user has the correct Firestore permissions (e.g., `datastore.entities.list`, `datastore.entities.create`).
