@@ -1,11 +1,11 @@
 # Gemini CLI Extension - Firestore
 
-This Gemini CLI extension provides a set of tools to interact with [Firestore](https://cloud.google.com/firestore/docs) instances. It allows you to manage your databases, documents, and collections directly from the [Gemini CLI](https://google-gemini.github.io/gemini-cli/), using natural language prompts.
+This Gemini CLI extension provides a set of tools to interact with [Firestore](https://cloud.google.com/firestore/docs) databases. It allows you to manage your databases, documents, and collections directly from the [Gemini CLI](https://google-gemini.github.io/gemini-cli/), using natural language prompts.
 
 ## Features
 
 *   **Integrated with Gemini CLI:** As a Google-developed extension, it integrates seamlessly into the Gemini CLI environment, making security an accessible part of your workflow.
-*   **Connect to Firestore:** Securely connect to your Firestore instances.
+*   **Connect to Firestore:** Securely connect to your Firestore databases.
 *   **Explore Database:** List collections and documents.
 *   **Query your Database:** Execute queries against your database.
 
