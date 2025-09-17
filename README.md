@@ -12,12 +12,19 @@ This Gemini CLI extension provides a set of tools to interact with [Firestore](h
 ## Supported Tools
 
 🟢 firestore-add-documents: Use this tool to add documents to a Firestore collection path.
+
 🟢 firestore-get-documents: Use this tool to get multiple documents from Firestore by their paths.
+
 🟢 firestore-list-collections: Use this tool to list Firestore collections for a given parent path.
+
 🟢 firestore-delete-documents: Use this tool to delete multiple documents from Firestore.
+
 🟢 firestore-query-collection: Use this tool to query documents from a collection with filtering, ordering, and limit options.
+
 🟢 firestore-get-rules: Use this tool to retrieve the active Firestore security rules for the current project.
+
 🟢 firestore-update-document: Use this tool to update an existing document in Firestore by its path.
+
 🟢 firestore-validate-rules: Use this tool to validate Firestore security rules syntax and errors.
 
 ## Prerequisites
