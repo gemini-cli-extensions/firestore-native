@@ -1,5 +1,5 @@
 {
-  "name": "Firestore (Native Mode)",
+  "name": "firestore-native",
   "version": "0.1.0",
   "description": "Connect to firestore-native",
   "mcpServers": {
