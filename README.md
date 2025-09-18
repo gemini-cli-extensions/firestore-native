@@ -4,7 +4,7 @@ This Gemini CLI extension provides a set of tools to interact with [Firestore](h
 
 Learn more about [Gemini CLI Extensions](https://github.com/google-gemini/gemini-cli/blob/main/docs/extension.md).
 
-## Features
+## Why Use the Firestore Native Extension?
 
 * **Natural Language Management:** Stop wrestling with complex commands. Explore schemas and query data by describing what you want in plain English.
 * **Seamless Workflow:** As a Google-developed extension, it integrates seamlessly into the Gemini CLI environment. No need to constantly switch contexts for common database tasks.
@@ -17,8 +17,8 @@ Before you begin, ensure you have the following:
 *   [Gemini CLI](https://github.com/google-gemini/gemini-cli) installed.
 *   A Google Cloud project with the **Firestore API** enabled.
 *   IAM Permissions
-   *   Cloud Datastore User (`roles/datastore.user`)
-   *   Firebase Rules Viewer (`roles/firebaserules.viewer`) 
+    *   Cloud Datastore User (`roles/datastore.user`)
+    *   Firebase Rules Viewer (`roles/firebaserules.viewer`) 
 
 ## Installation
 
