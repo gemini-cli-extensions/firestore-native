@@ -4,7 +4,7 @@ This Gemini CLI extension provides a set of tools to interact with [Firestore](h
 
 Learn more about [Gemini CLI Extensions](https://github.com/google-gemini/gemini-cli/blob/main/docs/extension.md).
 
-## Features
+## Why Use the Firestore Native Extension?
 
 * **Natural Language Management:** Stop wrestling with complex commands. Explore schemas and query data by describing what you want in plain English.
 * **Seamless Workflow:** As a Google-developed extension, it integrates seamlessly into the Gemini CLI environment. No need to constantly switch contexts for common database tasks.
@@ -17,8 +17,8 @@ Before you begin, ensure you have the following:
 *   [Gemini CLI](https://github.com/google-gemini/gemini-cli) installed.
 *   A Google Cloud project with the **Firestore API** enabled.
 *   IAM Permissions
-  *   Cloud Datastore User (`roles/datastore.user`)
-  *   Firebase Rules Viewer (`roles/firebaserules.viewer`) 
+    *   Cloud Datastore User (`roles/datastore.user`)
+    *   Firebase Rules Viewer (`roles/firebaserules.viewer`) 
 
 ## Installation
 
@@ -54,14 +54,14 @@ Interact with Firestore using natural language right from your IDE:
 
 This extension provides a comprehensive set of tools:
 
-* `add-documents`: Use this tool to add documents to a Firestore collection path.
-* `get-documents`: Use this tool to get multiple documents from Firestore by their paths.
-* `list-collections`: Use this tool to list Firestore collections for a given parent path.
-* `delete-documents`: Use this tool to delete multiple documents from Firestore.
-* `query-collection`: Use this tool to query documents from a collection with filtering, ordering, and limit options.
-* `get-rules`: Use this tool to retrieve the active Firestore security rules for the current project.
-* `update-document`: Use this tool to update an existing document in Firestore by its path.
-* `validate-rules`: Use this tool to validate Firestore security rules syntax and errors.
+* `add_documents`: Use this tool to add documents to a Firestore collection path.
+* `get_documents`: Use this tool to get multiple documents from Firestore by their paths.
+* `list_collections`: Use this tool to list Firestore collections for a given parent path.
+* `delete_documents`: Use this tool to delete multiple documents from Firestore.
+* `query_collection`: Use this tool to query documents from a collection with filtering, ordering, and limit options.
+* `get_rules`: Use this tool to retrieve the active Firestore security rules for the current project.
+* `update_document`: Use this tool to update an existing document in Firestore by its path.
+* `validate_rules`: Use this tool to validate Firestore security rules syntax and errors.
 
 ## Additional Extensions
 
