@@ -1,7 +1,7 @@
 {
-  "name": "Firestore (Native Mode)",
+  "name": "firestore-native",
   "version": "0.1.0",
-  "description": "Connect to firestore-native",
+  "description": "Connect and interact with Firestore databases, collections, and documents.",
   "mcpServers": {
     "Firestore": {
       "command": "${extensionPath}${/}toolbox",
