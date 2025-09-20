@@ -9,10 +9,7 @@
         "--prebuilt",
         "firestore",
         "--stdio"
-      ],
-      "env": {
-        "FIRESTORE_PROJECT": "${FIRESTORE_PROJECT}"
-      }
+      ]
     }
   },
   "contextFileName": "FIRESTORE-NATIVE.md"
