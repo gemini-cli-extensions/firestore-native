@@ -17,7 +17,7 @@ Learn more about [Gemini CLI Extensions](https://github.com/google-gemini/gemini
 
 Before you begin, ensure you have the following:
 
-*   [Gemini CLI](https://github.com/google-gemini/gemini-cli) installed with version +v0.6.0.
+*   [Gemini CLI](https://github.com/google-gemini/gemini-cli) installed with version **+v0.6.0**.
 *   A Google Cloud project with the **Firestore API** enabled.
 *   IAM Permissions
     *   Cloud Datastore User (`roles/datastore.user`)
@@ -28,7 +28,7 @@ Before you begin, ensure you have the following:
 To install the extension, use the `gemini extensions install` command:
 
 ```bash
-gemini extensions install github.com/gemini-cli-extensions/firestore-native
+gemini extensions install https://github.com/gemini-cli-extensions/firestore-native
 ```
 
 ## Configuration
