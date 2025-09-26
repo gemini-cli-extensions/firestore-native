@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "Connect and interact with Firestore databases, collections, and documents.",
   "mcpServers": {
-    "Firestore": {
+    "firestore": {
       "command": "${extensionPath}${/}toolbox",
       "args": [
         "--prebuilt",
