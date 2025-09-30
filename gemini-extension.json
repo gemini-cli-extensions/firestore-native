@@ -1,6 +1,6 @@
 {
   "name": "firestore-native",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Connect and interact with Firestore databases, collections, and documents.",
   "mcpServers": {
     "firestore": {
