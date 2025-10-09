@@ -1,18 +1,15 @@
 {
   "name": "firestore-native",
-  "version": "0.0.0",
+  "version": "0.1.1",
   "description": "Connect and interact with Firestore databases, collections, and documents.",
   "mcpServers": {
-    "Firestore": {
+    "firestore": {
       "command": "${extensionPath}${/}toolbox",
       "args": [
         "--prebuilt",
         "firestore",
         "--stdio"
-      ],
-      "env": {
-        "FIRESTORE_PROJECT": "${FIRESTORE_PROJECT}"
-      }
+      ]
     }
   },
   "contextFileName": "FIRESTORE-NATIVE.md"
