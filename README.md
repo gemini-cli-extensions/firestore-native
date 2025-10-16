@@ -46,8 +46,10 @@ gemini extensions install https://github.com/gemini-cli-extensions/firestore-nat
 
 Set the following environment variables before starting the Gemini CLI. These variables can be loaded from a `.env` file.
 
-* `FIRESTORE_PROJECT`: The GCP project ID.
-* `FIRESTORE_DATABASE`: (Optional) The Firestore database ID.
+```bash
+export FIRESTORE_PROJECT="<your-gcp-project-id>"
+export FIRESTORE_DATABASE="(default)" # Optional
+```
 
 Ensure [Application Default Credentials](https://cloud.google.com/docs/authentication/gcloud) are available in your environment.
 
