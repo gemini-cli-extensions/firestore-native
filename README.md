@@ -13,6 +13,8 @@ Learn more about [Gemini CLI Extensions](https://github.com/google-gemini/gemini
 
 [form]: https://docs.google.com/forms/d/e/1FAIpQLSfEGmLR46iipyNTgwTmIDJqzkAwDPXxbocpXpUbHXydiN1RTw/viewform?usp=pp_url&entry.157487=firestore-native
 
+[![Video Tutorial](https://github.com/user-attachments/assets/feb798ad-8963-47c0-abf2-f34b4b847bca)](https://youtu.be/mQGIANnQnCI)
+
 ## Why Use the Firestore Native Extension?
 
 * **Natural Language Management:** Stop wrestling with complex commands. Explore schemas and query data by describing what you want in plain English.
