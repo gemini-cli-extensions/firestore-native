@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.2](https://github.com/gemini-cli-extensions/firestore-native/compare/0.1.1...0.1.2) (2025-12-05)
+
+
+### Features
+
+* **deps:** update dependency googleapis/genai-toolbox to v0.22.0 ([#64](https://github.com/gemini-cli-extensions/firestore-native/issues/64)) ([8b13957](https://github.com/gemini-cli-extensions/firestore-native/commit/8b139576e610da70c5e2c46fe9cb8bb59286a5d3))
+
 ## [0.1.1](https://github.com/gemini-cli-extensions/firestore-native/compare/0.1.0...0.1.1) (2025-09-30)
 
 
