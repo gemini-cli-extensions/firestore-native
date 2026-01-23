@@ -19,6 +19,11 @@ Learn more about [Gemini CLI Extensions](https://github.com/google-gemini/gemini
 * **Seamless Workflow:** As a Google-developed extension, it integrates seamlessly into the Gemini CLI environment. No need to constantly switch contexts for common database tasks.
 * **Code Generation:** Accelerate development by asking Gemini to generate data classes and other code snippets based on your table schemas.
 
+## 📺 Video Walkthrough
+Follow this step-by-step video walkthrough to setup and use the Firestore Native Extension.
+<p align="center">
+<a href="https://youtu.be/mQGIANnQnCI"><img src="https://github.com/user-attachments/assets/feb798ad-8963-47c0-abf2-f34b4b847bca" alt="Video Tutorial" width="50%" /></a>
+</p>
 
 ## Prerequisites
 
