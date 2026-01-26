@@ -12,5 +12,17 @@
       ]
     }
   },
-  "contextFileName": "FIRESTORE-NATIVE.md"
+  "contextFileName": "FIRESTORE-NATIVE.md",
+  "settings": [
+    {
+      "name": "Project ID",
+      "description": "ID of the Google Cloud project",
+      "envVar": "FIRESTORE_PROJECT"
+    },
+    {
+      "name": "Database ID",
+      "description": "ID of the Firestore database",
+      "envVar": "FIRESTORE_DATABASE"
+    }
+  ]
 }
