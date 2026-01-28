@@ -21,7 +21,7 @@
     },
     {
       "name": "Database ID",
-      "description": "ID of the Firestore database",
+      "description": "(Optional) ID of the Firestore database (Default: '(default)')",
       "envVar": "FIRESTORE_DATABASE"
     }
   ]
