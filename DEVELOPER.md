@@ -20,65 +20,30 @@ This extension uses **Agent Skills** to interact with Firestore. The development
     ```bash
     git clone https://github.com/gemini-cli-extensions/firestore-native.git
     cd firestore-native
-    ```
 
-2.  **Generate Skills:** Use the `toolbox` binary to generate the skills.
-
-    ```bash
-    # Set the required env vars for configuration.
-    export FIRESTORE_PROJECT="<your-gcp-project-id>"
-    export FIRESTORE_DATABASE="(default)" # Optional
-
-    # Download the toolbox binary
-    export VERSION=1.1.0
-    curl -L -o toolbox https://storage.googleapis.com/mcp-toolbox-for-databases/v$VERSION/darwin/arm64/toolbox
-    chmod +x toolbox
-
-    # Generate skills for firestore-data
-    ./toolbox --prebuilt firestore skills-generate --name "firestore-data" --description "Handles NoSQL document operations and collection hierarchy exploration. Use for CRUD tasks and data retrieval. Provides flexible document manipulation and structured querying." --toolset=data --license-header "// Copyright 2026 Google LLC
-    //
-    // Licensed under the Apache License, Version 2.0 (the \"License\");
-    // you may not use this file except in compliance with the License.
-    // You may obtain a copy of the License at
-    //
-    //      http://www.apache.org/licenses/LICENSE-2.0
-    //
-    // Unless required by applicable law or agreed to in writing, software
-    // distributed under the License is distributed on an \"AS IS\" BASIS,
-    // WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    // See the License for the specific language governing permissions and
-    // limitations under the License."
-
-    # Generate skills for firestore-security
-    ./toolbox --prebuilt firestore skills-generate --name "firestore-security" --description "Manages access control and security compliance. Use when auditing permissions or deploying new security logic. Provides rule retrieval and syntax validation." --toolset=security --license-header "// Copyright 2026 Google LLC
-    //
-    // Licensed under the Apache License, Version 2.0 (the \"License\");
-    // you may not use this file except in compliance with the License.
-    // You may obtain a copy of the License at
-    //
-    //      http://www.apache.org/licenses/LICENSE-2.0
-    //
-    // Unless required by applicable law or agreed to in writing, software
-    // distributed under the License is distributed on an \"AS IS\" BASIS,
-    // WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    // See the License for the specific language governing permissions and
-    // limitations under the License."
-    ```
-
-3.  **Link the Extension Locally:** Use the Gemini CLI to install the extension from your local directory.
+2.  **Install the Extension Locally:** Use the Gemini CLI to install the
+    extension from your local directory.
 
     ```bash
-    gemini extensions link .
+    gemini extensions install .
     ```
-    The CLI will prompt you to confirm the linking. Accept it to proceed.
+    The CLI will prompt you to confirm the installation. Accept it to proceed.
 
-4.  **Testing Changes:** After linking, start the Gemini CLI (`gemini`). You can now interact with the Firestore skills to manually test your changes.
+3.  **Testing Changes:** After installation, start the Gemini CLI (`gemini`).
+    You can now interact with the `firestore-native` skills to manually test your changes
+    against your connected database.
 
 ## Testing
 
 ### Automated Skills Validation
 
-A GitHub Actions workflow (`.github/workflows/skills-validate.yml`) is triggered for every pull request. This workflow validates the structure and content of the generated skills.
+A GitHub Actions workflow (`.github/workflows/presubmit-tests.yml`) is triggered
+for every pull request. This workflow primarily verifies that the extension can
+be successfully installed by the Gemini CLI.
+
+All tools are currently tested in the [MCP Toolbox GitHub](https://github.com/googleapis/mcp-toolbox).
+
+The skills themselves are validated using the `skills-validate.yml` workflow.
 
 ### Other GitHub Checks
 
