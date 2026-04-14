@@ -35,6 +35,12 @@ This repository provides a set of agent skills to interact with [Firestore](http
 - **Data & Security Management:** Manage your Firestore data and security rules directly from your agent.
 - **Code Generation:** Accelerate development by asking your agent to generate data classes and other code snippets based on your document structures.
 
+## 📺 Video Walkthrough
+Follow this step-by-step video walkthrough to setup and use the Firestore Native Extension.
+<p align="center">
+<a href="https://youtu.be/mQGIANnQnCI"><img src="https://github.com/user-attachments/assets/feb798ad-8963-47c0-abf2-f34b4b847bca" alt="Video Tutorial" width="50%" /></a>
+</p>
+
 ## Prerequisites
 
 Before you begin, ensure you have the following:
