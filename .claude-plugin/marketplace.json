@@ -1,0 +1,16 @@
+{
+  "name": "firestore-native-marketplace",
+  "owner": {
+    "name": "Google LLC",
+    "email": "data-cloud-ai-integrations@google.com"
+  },
+  "metadata": {
+    "description": "Agent skills for Firestore to connect and interact with databases, collections, and documents."
+  },
+  "plugins": [
+    {
+      "name": "firestore-native",
+      "source": "./"
+    }
+  ]
+}
