@@ -32,7 +32,7 @@ This repository provides a set of agent skills to interact with [Firestore](http
 
 - **Seamless Workflow:** Integrates seamlessly into your AI agent's environment. No need to constantly switch contexts for common database tasks.
 - **Natural Language Queries:** Stop wrestling with complex commands. Explore schemas and query data by describing what you want in plain English.
-- **Data & Security Management:** Manage your Firestore data and security rules directly from your agent.
+- **Data Management:** Manage your Firestore data directly from your agent.
 - **Code Generation:** Accelerate development by asking your agent to generate data classes and other code snippets based on your document structures.
 
 ## 📺 Video Walkthrough
@@ -228,16 +228,12 @@ Interact with Firestore using natural language:
 - **Document Updates and Cleanup**:
   - "For all 20 test users you just found, please remove product-glasses(inactive) from their wishlist."
   - "Update the document with ID order-987 in the orders collection to set the status to 'Shipped'."
-- **Security Rules Management**:
-  - "new_rules.txt is a new Firestore Security Rule I'm working on for staging. Can you validate it for me?"
-  - "Show me the active Firestore security rules for this project."
 
 ## Supported Skills
 
 The following skills are available in this repository:
 
 - [Firestore Data](./skills/firestore-data/SKILL.md) - Handles NoSQL document operations and collection hierarchy exploration. Use for CRUD tasks and data retrieval. Provides flexible document manipulation and structured querying.
-- [Firestore Security](./skills/firestore-security/SKILL.md) - Manages access control and security compliance. Use when auditing permissions or deploying new security logic. Provides rule retrieval and syntax validation.
 
 ## Additional Agent Skills
 
