@@ -12,7 +12,7 @@ To install this extension, the Gemini CLI version must be v0.6.0 or above. The v
 
 This section covers connecting to a Firestore instance.
 
-1. **Extension Configuration**: This extension requires settings (e.g., Project ID and Database ID). These values are gathered via prompts when you first install or link the extension:
+1.  **Verify Environment Variables**: Before attempting to connect, confirm with the user that the following environment variables are set in the extension configuration or their shell environment.
 
     * `FIRESTORE_PROJECT`: The GCP project ID.
     * `FIRESTORE_DATABASE`: The Firestore database ID.
