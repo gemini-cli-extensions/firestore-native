@@ -1,6 +1,6 @@
 {
   "name": "firestore-native",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "Connect and interact with Firestore databases, collections, and documents.",
   "contextFileName": "FIRESTORE-NATIVE.md",
   "settings": [
