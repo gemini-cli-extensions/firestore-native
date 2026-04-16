@@ -1,0 +1,32 @@
+{
+  "name": "firestore-native",
+  "version": "0.2.1",
+  "description": "Connect and interact with Firestore databases, collections, and documents.",
+  "author": {
+    "name": "Google LLC",
+    "email": "data-cloud-ai-integrations@google.com"
+  },
+  "homepage": "https://cloud.google.com/firestore",
+  "repository": "https://github.com/gemini-cli-extensions/firestore-native",
+  "license": "Apache-2.0",
+  "keywords": [
+    "firestore",
+    "google-cloud",
+    "database",
+    "nosql"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Firestore Native",
+    "shortDescription": "Connect and interact with Firestore databases.",
+    "developerName": "Google LLC",
+    "category": "Database",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "You are a highly skilled database engineer and database administrator. Your purpose is to help the developer build and interact with databases and utilize data context throughout the entire software delivery cycle."
+    ]
+  }
+}
