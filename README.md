@@ -83,8 +83,8 @@ For the latest version, check the [releases page][releases].
 <summary id="antigravity">Antigravity</summary>
 
 You can use either of these two agents for Antigravity:
-- [Antigravity CLI](https://github.com/google-gemini/gemini-cli) version **v1.6.0** or higher
-- [Antigravity 2.0](https://antigravity.google/product/antigravity-2) version **v2.0.0** or higher.
+- [Antigravity CLI](https://github.com/google-gemini/gemini-cli) version **v0.3.1** or higher
+- [Antigravity 2.0](https://antigravity.google/product/antigravity-2) version **v0.3.1** or higher.
 
 <blockquote>
 💡 <strong>Tip — Migrating from Gemini CLI?</strong><br>
@@ -103,7 +103,7 @@ See <a href="https://antigravity.google/docs/gcli-migration">Migrating from Gemi
 **1. Clone the Repo:**
 
 ```bash
-git clone --branch 0.3.0 https://github.com/gemini-cli-extensions/firestore-native.git
+git clone --branch 0.3.1 https://github.com/gemini-cli-extensions/firestore-native.git
 ```
 
 **2. Install the skills:**
@@ -128,7 +128,7 @@ _(Tip: Antigravity 2.0 automatically discovers skills in these directories at th
 **1. Clone the Repo:**
 
 ```bash
-git clone --branch 0.3.0 https://github.com/gemini-cli-extensions/firestore-native.git
+git clone --branch 0.3.1 https://github.com/gemini-cli-extensions/firestore-native.git
 ```
 
 **2. Install the skills:**
@@ -165,7 +165,7 @@ claude
 **3. Add the marketplace:**
 
 ```bash
-/plugin marketplace add https://github.com/gemini-cli-extensions/firestore-native.git#0.3.0
+/plugin marketplace add https://github.com/gemini-cli-extensions/firestore-native.git#0.3.1
 ```
 
 **4. Install the plugin:**
@@ -184,7 +184,7 @@ _(Tip: Run `/plugin list` inside Claude Code to verify the plugin is active, or 
 **1. Clone the Repo:**
 
 ```bash
-git clone --branch 0.3.0 git@github.com:gemini-cli-extensions/firestore-native.git
+git clone --branch 0.3.1 git@github.com:gemini-cli-extensions/firestore-native.git
 ```
 
 **2. Install the plugin:**
@@ -233,7 +233,7 @@ You can install skills using the `npx skills` command.
 Run the following command in your terminal to automatically download and register the skills:
 
 ```bash
-npx skills add https://github.com/gemini-cli-extensions/firestore-native/tree/0.3.0
+npx skills add https://github.com/gemini-cli-extensions/firestore-native/tree/0.3.1
 ```
 
 For detailed info check out the [Skills npm package](https://www.npmjs.com/package/skills).
