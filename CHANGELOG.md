@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.3.3](https://github.com/gemini-cli-extensions/firestore-native/compare/0.3.2...0.3.3) (2026-07-01)
+
+
+### Features
+
+* **release:** Add digital signature to Toolbox binaries ([mcp-toolbox#​3528](https://redirect.github.com/googleapis/mcp-toolbox/issues/3528)) ([3f0f0af](https://redirect.github.com/googleapis/mcp-toolbox/commit/3f0f0af29007929b01e95ee2caef4fd2015d5f12)) ([6023cc5](https://github.com/gemini-cli-extensions/firestore-native/commit/6023cc546e03ec1e489b1960d232063294403c38))
+* Support MCP 2026 draft specs ([mcp-toolbox#​3544](https://redirect.github.com/googleapis/mcp-toolbox/issues/3544)) ([d12eaa8](https://redirect.github.com/googleapis/mcp-toolbox/commit/d12eaa856bad70b49ba2b7b9f2882cffbf81220f)) ([6023cc5](https://github.com/gemini-cli-extensions/firestore-native/commit/6023cc546e03ec1e489b1960d232063294403c38))
+
 ## [0.3.2](https://github.com/gemini-cli-extensions/firestore-native/compare/0.3.1...0.3.2) (2026-06-22)
 
 
