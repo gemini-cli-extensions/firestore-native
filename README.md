@@ -178,7 +178,7 @@ codex plugin marketplace add GoogleCloudPlatform/data-agent-kit
 **2. Install the plugin:**
 
 ```bash
-codex plugin install firestore-native@data-agent-kit
+codex plugin add firestore-native@data-agent-kit
 ```
 
 **3. Set env vars:**
