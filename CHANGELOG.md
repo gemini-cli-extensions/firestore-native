@@ -1,5 +1,20 @@
 # Changelog
 
+## [0.3.4](https://github.com/gemini-cli-extensions/firestore-native/compare/0.3.3...0.3.4) (2026-07-25)
+
+
+### Features
+
+* **arcadedb:** Add arcadedb source and tools ([mcp-toolbox#​2961](https://redirect.github.com/googleapis/mcp-toolbox/issues/2961)) ([351de00](https://redirect.github.com/googleapis/mcp-toolbox/commit/351de00781a08999e735356624370ea1e7414419)) ([dfe84c0](https://github.com/gemini-cli-extensions/firestore-native/commit/dfe84c0d5711f2ada600ae2731ae274eee4703bb))
+* **cmd/internal,docs:** Add warning log that prebuilt tools are for developer use ([mcp-toolbox#​3451](https://redirect.github.com/googleapis/mcp-toolbox/issues/3451)) ([8cffcef](https://redirect.github.com/googleapis/mcp-toolbox/commit/8cffcef2b109ba913bd63b87a61f75db9e957d2f)) ([dfe84c0](https://github.com/gemini-cli-extensions/firestore-native/commit/dfe84c0d5711f2ada600ae2731ae274eee4703bb))
+* Add `quotaProject` support for BigQuery and Looker conversational analytics ([mcp-toolbox#​2610](https://redirect.github.com/googleapis/mcp-toolbox/issues/2610)) ([f3e7ca9](https://redirect.github.com/googleapis/mcp-toolbox/commit/f3e7ca9a8f49ce79f5b6fbef23c45a643c4e9d44)) ([dfe84c0](https://github.com/gemini-cli-extensions/firestore-native/commit/dfe84c0d5711f2ada600ae2731ae274eee4703bb))
+
+
+### Bug Fixes
+
+* **parameters:** Report the offending value in array/map type errors ([mcp-toolbox#​3512](https://redirect.github.com/googleapis/mcp-toolbox/issues/3512)) ([4034d6f](https://redirect.github.com/googleapis/mcp-toolbox/commit/4034d6f7b820962495622dbedc64fea968c14963)) ([dfe84c0](https://github.com/gemini-cli-extensions/firestore-native/commit/dfe84c0d5711f2ada600ae2731ae274eee4703bb))
+* **parameters:** Return an error instead of panicking on a non-string type field ([mcp-toolbox#​3516](https://redirect.github.com/googleapis/mcp-toolbox/issues/3516)) ([66a0d53](https://redirect.github.com/googleapis/mcp-toolbox/commit/66a0d53b9fd11d6ee90b28ae1c411fc8685ab990)) ([dfe84c0](https://github.com/gemini-cli-extensions/firestore-native/commit/dfe84c0d5711f2ada600ae2731ae274eee4703bb))
+
 ## [0.3.3](https://github.com/gemini-cli-extensions/firestore-native/compare/0.3.2...0.3.3) (2026-07-01)
 
 
