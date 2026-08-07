@@ -1,5 +1,26 @@
 # Changelog
 
+## [0.3.5](https://github.com/gemini-cli-extensions/firestore-native/compare/0.3.4...0.3.5) (2026-08-07)
+
+
+### Features
+
+* **prebuilt:** Migrate skills-repo toolsets to `kind: group` with descriptions ([mcp-toolbox#​3595](https://redirect.github.com/googleapis/mcp-toolbox/issues/3595)) ([b895b36](https://redirect.github.com/googleapis/mcp-toolbox/commit/b895b36b10eb81dc609216fc5f76ae800d1c65f4)) ([b65f184](https://github.com/gemini-cli-extensions/firestore-native/commit/b65f184dda7aa11a52ca7540fb2e963169a322b9))
+* **server:** Add `/healthz` endpoint for container health checks ([mcp-toolbox#​3060](https://redirect.github.com/googleapis/mcp-toolbox/issues/3060)) ([d5aefbc](https://redirect.github.com/googleapis/mcp-toolbox/commit/d5aefbc9e9bd914042224daaf0d4f9257ac01c88)) ([b65f184](https://github.com/gemini-cli-extensions/firestore-native/commit/b65f184dda7aa11a52ca7540fb2e963169a322b9))
+* **skills:** Add `--group` flag to generate a skill from one group ([mcp-toolbox#​3585](https://redirect.github.com/googleapis/mcp-toolbox/issues/3585)) ([c1abd4f](https://redirect.github.com/googleapis/mcp-toolbox/commit/c1abd4fc4fcdfa52ba20aaf7d92424ca189c7282)) ([b65f184](https://github.com/gemini-cli-extensions/firestore-native/commit/b65f184dda7aa11a52ca7540fb2e963169a322b9))
+* **skills:** Default `--name` to `--group`, `--toolset`, or single `--prebuilt` name ([mcp-toolbox#​3586](https://redirect.github.com/googleapis/mcp-toolbox/issues/3586)) ([2b33b08](https://redirect.github.com/googleapis/mcp-toolbox/commit/2b33b08c3a220657c8ab6a3e0ce1274badc2fe15)) ([b65f184](https://github.com/gemini-cli-extensions/firestore-native/commit/b65f184dda7aa11a52ca7540fb2e963169a322b9))
+* **skills:** Make description optional during skills gen ([mcp-toolbox#​3584](https://redirect.github.com/googleapis/mcp-toolbox/issues/3584)) ([d0a8f14](https://redirect.github.com/googleapis/mcp-toolbox/commit/d0a8f14cbec1f9770da7f82a07b4e480f5a4c6a7)) ([b65f184](https://github.com/gemini-cli-extensions/firestore-native/commit/b65f184dda7aa11a52ca7540fb2e963169a322b9))
+* Add `groups` support ([mcp-toolbox#​3605](https://redirect.github.com/googleapis/mcp-toolbox/issues/3605)) ([e75ec3b](https://redirect.github.com/googleapis/mcp-toolbox/commit/e75ec3b5c84dfad5b69f2d42ec2d3408f22e2463)) ([b65f184](https://github.com/gemini-cli-extensions/firestore-native/commit/b65f184dda7aa11a52ca7540fb2e963169a322b9))
+* **plugin:** support agent plugin spec ([#137](https://github.com/gemini-cli-extensions/firestore-native/issues/137)) ([9eac991](https://github.com/gemini-cli-extensions/firestore-native/commit/9eac9910e49e8f89d262fa2ebfceb7a00b128230))
+* Update draft specs to 2026-07-28 ([mcp-toolbox#​3699](https://redirect.github.com/googleapis/mcp-toolbox/issues/3699)) ([cf128ff](https://redirect.github.com/googleapis/mcp-toolbox/commit/cf128ff94c4d39aea1eb17caa706ff0b73d8c780)) ([b65f184](https://github.com/gemini-cli-extensions/firestore-native/commit/b65f184dda7aa11a52ca7540fb2e963169a322b9))
+
+
+### Bug Fixes
+
+* **server:** Sort default toolset alphabetically for stable ordering ([mcp-toolbox#​3539](https://redirect.github.com/googleapis/mcp-toolbox/issues/3539)) ([e5da24c](https://redirect.github.com/googleapis/mcp-toolbox/commit/e5da24c5dfd2208c7e947a20e58a2e2c82236241)) ([b65f184](https://github.com/gemini-cli-extensions/firestore-native/commit/b65f184dda7aa11a52ca7540fb2e963169a322b9))
+* Re-add name validation to tools name ([mcp-toolbox#​3654](https://redirect.github.com/googleapis/mcp-toolbox/issues/3654)) ([944f6ce](https://redirect.github.com/googleapis/mcp-toolbox/commit/944f6ce97bc77a92a052de92b88f0fc09ac7578c)) ([b65f184](https://github.com/gemini-cli-extensions/firestore-native/commit/b65f184dda7aa11a52ca7540fb2e963169a322b9))
+* Re-add tool validation during startup ([mcp-toolbox#​3705](https://redirect.github.com/googleapis/mcp-toolbox/issues/3705)) ([25ce953](https://redirect.github.com/googleapis/mcp-toolbox/commit/25ce953559a201183f066f566dca5fb597efca39)) ([b65f184](https://github.com/gemini-cli-extensions/firestore-native/commit/b65f184dda7aa11a52ca7540fb2e963169a322b9))
+
 ## [0.3.4](https://github.com/gemini-cli-extensions/firestore-native/compare/0.3.3...0.3.4) (2026-07-25)
 
 
