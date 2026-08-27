@@ -15,5 +15,40 @@
     "google-cloud",
     "database",
     "nosql"
-  ]
+  ],
+  "extensions": {
+    "com.google.cloud.data.agent-plugins": {
+      "config": [
+        {
+          "key": "FIRESTORE_PROJECT",
+          "title": "Project ID",
+          "description": "ID of the Google Cloud project"
+        },
+        {
+          "key": "FIRESTORE_DATABASE",
+          "title": "Database ID",
+          "description": "(Optional) ID of the Firestore database (Default: '(default)')"
+        }
+      ],
+      "gemini": {
+        "mcpServerName": "firestore",
+        "contextFileName": "FIRESTORE-NATIVE.md"
+      },
+      "codex": {
+        "interface": {
+          "displayName": "Firestore Native",
+          "shortDescription": "Connect and interact with Firestore databases.",
+          "developerName": "Google LLC",
+          "category": "Database",
+          "capabilities": [
+            "Read",
+            "Write"
+          ],
+          "defaultPrompt": [
+            "You are a highly skilled database engineer and database administrator. Your purpose is to help the developer build and interact with databases and utilize data context throughout the entire software delivery cycle."
+          ]
+        }
+      }
+    }
+  }
 }
