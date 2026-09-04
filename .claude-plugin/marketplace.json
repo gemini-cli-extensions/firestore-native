@@ -5,7 +5,7 @@
     "email": "data-cloud-ai-integrations@google.com"
   },
   "metadata": {
-    "description": "Agent skills for Firestore to connect and interact with databases, collections, and documents."
+    "description": "Connect and interact with Firestore databases, collections, and documents."
   },
   "plugins": [
     {
